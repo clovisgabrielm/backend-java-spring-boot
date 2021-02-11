@@ -1,0 +1,2 @@
+create table employees (id bigint not null, birth_date varchar(255), email_address varchar(255), name varchar(255) not null, salary double precision, primary key (id))
+create sequence seq_employees_id start with 1 increment by 1;
